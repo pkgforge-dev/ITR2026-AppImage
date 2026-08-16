@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=ITR 2026
+GenericName=Imposto sobre a Propriedade Territorial Rural 2026
+Comment=Declare seu imposto dos seus imóveis rurais (Ano-calendário 2026)
+Icon=br.gov.fazenda.receita.itr2026
+Exec=exec.sh
+Categories=Office;Network;
+Keywords=ditr;imposto;itr;receitanet;
+StartupNotify=true
+StartupWMClass=serpro-ppgd-app-IRPFPGD
