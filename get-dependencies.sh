@@ -16,7 +16,7 @@ echo "Getting app..."
 echo "---------------------------------------------------------------"
 VERSION=1.0
 echo "$VERSION" > ~/version
-wget https://downloaditr.receita.fazenda.gov.br/2026/arquivos/${VERSION}/ITR2025v${VERSION}.zip
+wget https://api.rv.pkgforge.dev/https://downloaditr.receita.fazenda.gov.br/2026/arquivos/${VERSION}/ITR2025v${VERSION}.zip
 bsdtar -xvf ./ITR2026v${VERSION}.zip --strip-components=1
 rm -f *.zip
 
